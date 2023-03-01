@@ -158,4 +158,10 @@ body {
 	background-color: black;
 	color: #f6f6f6;
 }
+.message {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
 /*-------------------Контакти----------------*/

@@ -16,13 +16,15 @@
     <header class="header">
         <section class="header-section">
             <div class="container">
-                <ul class="navigation list">
-                    <li class="hidden-item link"> <a href="">Home</a></li>
-                    <li class="hidden-item link"> <a href="">About me</a></li>
-                    <li class="hidden-item link"> <a href="">Skills</a> </li>
-                    <li class="hidden-item link"> <a href="">Portfolio</a></li>
-                    <li class="hidden-item link"> <a href="">Contacts</a> </li>
-                </ul>
+                <nav>
+                    <ul class="navigation list">
+                        <li class="hidden-item link"> <a href="./index.html">Home</a></li>
+                        <li class="hidden-item link"> <a href="#About me">About me</a></li>
+                        <li class="hidden-item link"> <a href="#Skills">Skills</a> </li>
+                        <li class="hidden-item link"> <a href="#Portfolio">Portfolio</a></li>
+                        <li class="hidden-item link"> <a href="#Contacts">Contacts</a> </li>
+                    </ul>
+                </nav>
             </div>
         </section>
     </header>
@@ -38,7 +40,7 @@
         </section>
         <section class="about">
             <div class="container">
-                <h2 class="about-me">About me</h2>
+                <h2 class="about-me" id="About me">About me</h2>
                 <p class="hello">Hello
                     I'm Svitlana Krasilnyk.
                     I'm a full stack developer.
@@ -51,13 +53,13 @@
         </section>
         <section class="skills">
             <div class="container">
-                <h2 class="about-me">Skills</h2>
+                <h2 class="about-me" id="Skills">Skills</h2>
                 <p class="work-program">I work in such programs as</p>
             </div>
         </section>
         <section class="portfolio">
             <div class="container">
-                <h2 class="about-me">Portfolio</h2>
+                <h2 class="about-me" id="Portfolio">Portfolio</h2>
                 <ul class="work list">
                     <li> <img src="" alt=""> <a href=""></a></li>
                     <li> <img src="" alt=""> <a href=""></a></li>
@@ -71,18 +73,27 @@
     <footer>
         <section class="contacts">
             <div class="container">
-                <h2 class="about-me">Contacts</h2>
+                <h2 class="about-me" id="Contacts">Contacts</h2>
                 <p class="chat">Want to know more or just chat?
                     You are welcome!</p>
                 <div class="button">
                     <button class="send" type="">Send message</button>
                 </div>
-                <ul class="message list">
-                    <li> <a href=""></a></li>
-                    <li> <a href=""></a></li>
-                    <li> <a href=""></a></li>
-                    <li> <a href=""></a></li>
-                </ul>
+                <div class="icon">
+                    <ul class="message list">
+                        <li> <a href="??"><svg class="soc-icon" width="40" height="40">
+                                    <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                                </svg></a></li>
+                        <li> <a href="https://www.linkedin.com/in/svitlana-krasilnyk-506500241/"><svg class="soc-icon"
+                                    width="40" height="40">
+                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                </svg></a></li>
+                        <li> <a href="https://instagram.com/kislova_sveta?igshid=YmJhNjkzNzY="><svg class="soc-icon"
+                                    width="40" height="40">
+                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                </svg></a></li>
+                    </ul>
+                </div>
             </div>
         </section>
     </footer>
