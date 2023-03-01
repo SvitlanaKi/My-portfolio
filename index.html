@@ -5,64 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <section>
-            <ul>
-                <li>Home</li>
-                <li>About me</li>
-                <li>Skills</li>
-                <li>Portfolio</li>
-                <li>Contacts</li>
-            </ul>
+    <header class="header">
+        <section class="header-section">
+            <div class="container">
+                <ul class="navigation list">
+                    <li class="hidden-item link"> <a href="">Home</a></li>
+                    <li class="hidden-item link"> <a href="">About me</a></li>
+                    <li class="hidden-item link"> <a href="">Skills</a> </li>
+                    <li class="hidden-item link"> <a href="">Portfolio</a></li>
+                    <li class="hidden-item link"> <a href="">Contacts</a> </li>
+                </ul>
+            </div>
         </section>
     </header>
     <main>
-        <section>
-            <h1>Krasilnyk Svitlana</h1>
-            <p>Full Stack Developer 28 years old, Kharkiv</p>
-            <img src="" alt="">
+        <section class="name">
+            <div class="container">
+                <div class="name-about">
+                    <h1 class="my-name"> Svitlana Krasilnyk </h1>
+                    <p class="why-i">Full Stack Developer 28 years old, Kharkiv</p>
+                    <img src="" alt="">
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>About me</h2>
-            <p>Hello
-                I'm Svitlana Krasilnyk.
-                I'm a full stack developer.
-                I'm hard-working and organised.
-                I love challenges.
-                I know HTML, CSS, React, JS and Java Script
-            </p>
+        <section class="about">
+            <div class="container">
+                <h2 class="about-me">About me</h2>
+                <p class="hello">Hello
+                    I'm Svitlana Krasilnyk.
+                    I'm a full stack developer.
+                    I'm hard-working and organised.
+                    I love challenges.
+                    I know HTML, CSS, React, JS and Java Script
+                </p>
+            </div>
+
         </section>
-        <section>
-            <h2>Skills</h2>
-            <p>I work in such programs as</p>
+        <section class="skills">
+            <div class="container">
+                <h2 class="about-me">Skills</h2>
+                <p class="work-program">I work in such programs as</p>
+            </div>
         </section>
-        <section>
-            <h2>Portfolio</h2>
-            <ul>
-                <li> <img src="" alt=""> <a href=""></a></li>
-                <li> <img src="" alt=""> <a href=""></a></li>
-                <li> <img src="" alt=""> <a href=""></a></li>
-                <li> <img src="" alt=""> <a href=""></a></li>
-            </ul>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="about-me">Portfolio</h2>
+                <ul class="work list">
+                    <li> <img src="" alt=""> <a href=""></a></li>
+                    <li> <img src="" alt=""> <a href=""></a></li>
+                    <li> <img src="" alt=""> <a href=""></a></li>
+                    <li> <img src="" alt=""> <a href=""></a></li>
+                </ul>
+            </div>
         </section>
     </main>
 
     <footer>
-        <section>
-            <h2>Contacts</h2>
-            <p>Want to know more or just chat?
-                You are welcome!</p>
-            <button type="">Send message</button>
-            <ul>
-                <li> <a href=""></a></li>
-                <li> <a href=""></a></li>
-                <li> <a href=""></a></li>
-                <li> <a href=""></a></li>
-            </ul>
+        <section class="contacts">
+            <div class="container">
+                <h2 class="about-me">Contacts</h2>
+                <p class="chat">Want to know more or just chat?
+                    You are welcome!</p>
+                <div class="button">
+                    <button class="send" type="">Send message</button>
+                </div>
+                <ul class="message list">
+                    <li> <a href=""></a></li>
+                    <li> <a href=""></a></li>
+                    <li> <a href=""></a></li>
+                    <li> <a href=""></a></li>
+                </ul>
+            </div>
         </section>
     </footer>
 </body>
